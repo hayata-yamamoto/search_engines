@@ -1,6 +1,7 @@
-import mypy_extensions as mx
 from datetime import datetime
 from typing import List, Dict, Union
+
+import mypy_extensions as mx
 
 
 class TedDocument(mx.TypedDict):

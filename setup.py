@@ -13,3 +13,7 @@ def main() -> None:
         packages=find_packages(exclude=['search_engines/data']),
         install_requires=req
     )
+
+
+if __name__ == '__main__':
+    main()
